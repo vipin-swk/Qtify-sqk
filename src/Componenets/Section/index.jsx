@@ -21,6 +21,7 @@ export default ({title, data, navId}) =>{
            imgSrc={cardData.image}
            label= {cardData.title}
            followersCount={cardData.follows}
+           songsCount = {cardData.songs.length}
            />)}           
         </div>)
         }
